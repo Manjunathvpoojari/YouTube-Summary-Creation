@@ -4,12 +4,6 @@ A beginner-friendly Streamlit web app that converts YouTube video links into con
 
 ---
 
-## 🚀 Demo Preview
-
-![App Preview](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)
-
----
-
 🧩 Features
 
 - 🔗 Input any YouTube video URL
@@ -31,4 +25,42 @@ A beginner-friendly Streamlit web app that converts YouTube video links into con
 ---
 
 ## 📁 Project Structure
+youtube-summarizer/
+├── app.py # Main application code
+├── .env # Contains the Gemini API Key (do not share)
+├── requirements.txt # All required Python packages
+└── README.md # Project description and usage guide
+
+
+---
+
+Install the Requirements
+pip install -r requirements.txt
+
+Run the App
+streamlit run app.py
+
+Open the App
+Visit http://localhost:8501 in your browser.
+
+
+Future Improvements
+Export summaries as downloadable PDF or DOCX
+
+Save history of generated summaries
+
+Add speech-to-text support for audio-only content
+
+Support summarizing long videos across multiple parts
+
+
+🙌 Credits
+Google Generative AI
+
+Streamlit
+
+YouTube Transcript API
+
+
+
 
